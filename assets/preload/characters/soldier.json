@@ -1,70 +1,81 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
-				-4
+				-3
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "soldier left"
+			"fps": 24,
+			"name": "soldier left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				66,
+				44,
 				-6
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "soldier right"
+			"fps": 24,
+			"name": "soldier right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				75,
-				5
+				7
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "soldier up"
+			"fps": 24,
+			"name": "soldier up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "soldier idle"
+			"fps": 24,
+			"name": "soldier idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				70,
 				-106
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "soldier down"
+			"fps": 24,
+			"name": "soldier down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				124,
 				10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "eventProud",
+			"fps": 24,
+			"name": "soldier proud",
+			"indices": []
+		},
+		{
+			"offsets": [
+				30,
+				-10
+			],
 			"indices": [],
-			"name": "soldier proud"
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "shoot"
 		}
 	],
 	"no_antialiasing": false,

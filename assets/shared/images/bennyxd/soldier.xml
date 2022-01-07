@@ -73,69 +73,69 @@
 	<SubTexture name="soldier down0048" x="3549" y="5" width="492" height="479" frameX="-5" frameY="0" frameWidth="501" frameHeight="479"/>
 	<SubTexture name="soldier down0049" x="3549" y="5" width="492" height="479" frameX="-5" frameY="0" frameWidth="501" frameHeight="479"/>
 	<SubTexture name="soldier down0050" x="3549" y="5" width="492" height="479" frameX="-5" frameY="0" frameWidth="501" frameHeight="479"/>
-	<SubTexture name="soldier idle0000" x="5" y="589" width="390" height="564" frameX="0" frameY="-10" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0001" x="5" y="589" width="390" height="564" frameX="0" frameY="-10" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0002" x="400" y="589" width="393" height="565" frameX="0" frameY="-9" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0003" x="400" y="589" width="393" height="565" frameX="0" frameY="-9" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0004" x="798" y="589" width="395" height="572" frameX="0" frameY="-2" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0005" x="798" y="589" width="395" height="572" frameX="0" frameY="-2" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0006" x="1198" y="589" width="392" height="573" frameX="0" frameY="-1" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0007" x="1198" y="589" width="392" height="573" frameX="0" frameY="-1" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0008" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0009" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0010" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0011" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0012" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier idle0013" x="1595" y="589" width="391" height="574" frameX="0" frameY="0" frameWidth="395" frameHeight="574"/>
-	<SubTexture name="soldier left0000" x="1991" y="589" width="372" height="571" frameX="0" frameY="-1" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0001" x="1991" y="589" width="372" height="571" frameX="0" frameY="-1" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0002" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0003" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0004" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0005" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0006" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0007" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0008" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0009" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0010" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0011" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0012" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0013" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0014" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0015" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0016" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0017" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0018" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0019" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0020" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0021" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0022" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0023" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0024" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0025" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0026" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0027" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0028" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0029" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0030" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0031" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0032" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0033" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0034" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0035" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0036" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0037" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0038" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0039" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0040" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0041" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0042" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier left0043" x="2368" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
-	<SubTexture name="soldier proud20000" x="2740" y="589" width="392" height="575" frameX="-125" frameY="-12" frameWidth="547" frameHeight="587"/>
-	<SubTexture name="soldier proud20001" x="2740" y="589" width="392" height="575" frameX="-125" frameY="-12" frameWidth="547" frameHeight="587"/>
-	<SubTexture name="soldier proud20002" x="3137" y="589" width="412" height="574" frameX="-125" frameY="-13" frameWidth="547" frameHeight="587"/>
-	<SubTexture name="soldier proud20003" x="3137" y="589" width="412" height="574" frameX="-125" frameY="-13" frameWidth="547" frameHeight="587"/>
-	<SubTexture name="soldier proud20004" x="3554" y="589" width="420" height="572" frameX="-125" frameY="-15" frameWidth="547" frameHeight="587"/>
+	<SubTexture name="soldier idle0000" x="5" y="589" width="400" height="564" frameX="0" frameY="-10" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0001" x="5" y="589" width="400" height="564" frameX="0" frameY="-10" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0002" x="410" y="589" width="403" height="565" frameX="0" frameY="-9" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0003" x="410" y="589" width="403" height="565" frameX="0" frameY="-9" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0004" x="818" y="589" width="405" height="572" frameX="0" frameY="-2" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0005" x="818" y="589" width="405" height="572" frameX="0" frameY="-2" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0006" x="1228" y="589" width="405" height="573" frameX="0" frameY="-1" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0007" x="1228" y="589" width="405" height="573" frameX="0" frameY="-1" frameWidth="405" frameHeight="574"/>
+	<SubTexture name="soldier idle0008" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier idle0009" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier idle0010" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier idle0011" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier idle0012" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier idle0013" x="1638" y="589" width="405" height="574"/>
+	<SubTexture name="soldier left0000" x="2048" y="589" width="372" height="571" frameX="0" frameY="-1" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0001" x="2048" y="589" width="372" height="571" frameX="0" frameY="-1" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0002" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0003" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0004" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0005" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0006" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0007" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0008" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0009" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0010" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0011" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0012" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0013" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0014" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0015" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0016" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0017" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0018" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0019" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0020" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0021" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0022" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0023" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0024" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0025" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0026" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0027" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0028" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0029" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0030" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0031" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0032" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0033" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0034" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0035" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0036" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0037" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0038" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0039" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0040" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0041" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0042" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier left0043" x="2425" y="589" width="367" height="572" frameX="0" frameY="0" frameWidth="372" frameHeight="572"/>
+	<SubTexture name="soldier proud20000" x="2797" y="589" width="392" height="575" frameX="-125" frameY="-12" frameWidth="547" frameHeight="587"/>
+	<SubTexture name="soldier proud20001" x="2797" y="589" width="392" height="575" frameX="-125" frameY="-12" frameWidth="547" frameHeight="587"/>
+	<SubTexture name="soldier proud20002" x="3194" y="589" width="412" height="574" frameX="-125" frameY="-13" frameWidth="547" frameHeight="587"/>
+	<SubTexture name="soldier proud20003" x="3194" y="589" width="412" height="574" frameX="-125" frameY="-13" frameWidth="547" frameHeight="587"/>
+	<SubTexture name="soldier proud20004" x="3611" y="589" width="420" height="572" frameX="-125" frameY="-15" frameWidth="547" frameHeight="587"/>
 	<SubTexture name="soldier proud20005" x="5" y="1169" width="422" height="572" frameX="-125" frameY="-15" frameWidth="547" frameHeight="587"/>
 	<SubTexture name="soldier proud20006" x="5" y="1169" width="422" height="572" frameX="-125" frameY="-15" frameWidth="547" frameHeight="587"/>
 	<SubTexture name="soldier proud20007" x="432" y="1169" width="396" height="571" frameX="-125" frameY="-16" frameWidth="547" frameHeight="587"/>
