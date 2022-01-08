@@ -2411,11 +2411,11 @@ class PlayState extends MusicBeatState
 					}
 				} else if (dad.curCharacter == 'soldier' && daNote.noteType == 'Hurt Note' && daNote.mustPress && daNote.canBeHit && daNote.strumTime <= Conductor.songPosition){
 					if (!shottedAnim){
-						if(boyfriend.animation.getByName('hurt') != null){
+						if(boyfriend.animation.getByName('dodge') != null){
 							boyfriend.playAnim('dodge', true);
 							boyfriend.specialAnim = true;
 						}
-						if(boyfriend.animation.getByName('hurt') != null){
+						if(boyfriend.animation.getByName('attack') != null){
 							dad.playAnim('attack', true);
 							dad.specialAnim = true;
 						}
