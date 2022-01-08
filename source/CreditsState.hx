@@ -24,14 +24,16 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Subscribe to Kenz0id'],
+		['Kenz0id',		'',		'he animates the cutscenes\nBut Subscribe to Kenz0id',					'https://www.youtube.com/channel/UCTNIhk8e8FdBSIqFu_oyY1Q',	0xFF3366FF],
+		[''],
 		['Benny Dev Team'],
-		['Zac',		'zac',		'Director, Artist, Animator',					'https://www.youtube.com/channel/UCtSP-OEzoxn-HgySlzqyzoQ',	0xFF3366FF],
+		['Zac',		'zac',		'Director, Artist, Animator\nBenny Creator',					'https://www.youtube.com/channel/UCtSP-OEzoxn-HgySlzqyzoQ',	0xFF3366FF],
 		['LazyGoobster',		'goob',		'D r a w s',					'https://www.youtube.com/channel/UCBD7vRTlPiVpp8WlGj7Qqrw',	0xFF990066],
 		['NonsenseHumor',		'corck',		'C o d e s',					'https://www.youtube.com/c/NonsenseHumorLOL',	0xFFA3E9F0],
-		['Skieonsta',		'',		'B l o o d s',					'https://www.youtube.com/channel/UCdwn89VPklR7hDKpD1MWzXA',	0xFF3366FF],
-		['Lanzy',		'',		'C h a r t s',					'https://www.youtube.com/channel/UCL5zNunWt5LX_yxjpqacCSg',	0xFF3366FF],
+		['Skieonsta',		'sky baby',		'B l o o d s',					'https://www.youtube.com/channel/UCdwn89VPklR7hDKpD1MWzXA',	0xFF629975],
+		['Lanzy',		'lanzy',		'C h a r t s',					'https://www.youtube.com/channel/UCL5zNunWt5LX_yxjpqacCSg',	0xFF757575],
 		['Greenz',		'',		'C o d e s',					'https://www.youtube.com/channel/UCQNnIhEmzKGDpdhkICS_G0A',	0xFF3366FF],
-		['Kenz0id',		'',		'A n i m a t e s',					'https://www.youtube.com/channel/UCTNIhk8e8FdBSIqFu_oyY1Q',	0xFF3366FF],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
@@ -140,7 +142,7 @@ class CreditsState extends MusicBeatState
 		super.update(elapsed);
 	}
 
-	function changeSelection(change:Int = 0)
+	function changeSelection(change:Int = 1)
 	{
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 		do {
