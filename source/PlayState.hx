@@ -167,6 +167,7 @@ class PlayState extends MusicBeatState
 
 	var botplaySine:Float = 0;
 	var botplayTxt:FlxText;
+	var shottedAnim:Bool = false;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -174,6 +175,7 @@ class PlayState extends MusicBeatState
 	public var camGame:FlxCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
+	var shotgunSHOT:FlxSound;
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -749,7 +751,6 @@ class PlayState extends MusicBeatState
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
 		}
-
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
 		luaDebugGroup.cameras = [camOther];
@@ -2408,6 +2409,25 @@ class PlayState extends MusicBeatState
 						notes.remove(daNote, true);
 						daNote.destroy();
 					}
+				} else if (dad.curCharacter == 'soldier' && daNote.noteType == 'Hurt Note' && daNote.mustPress && daNote.canBeHit && daNote.strumTime <= Conductor.songPosition){
+					if (!shottedAnim){
+						if(boyfriend.animation.getByName('hurt') != null){
+							boyfriend.playAnim('dodge', true);
+							boyfriend.specialAnim = true;
+						}
+						if(boyfriend.animation.getByName('hurt') != null){
+							dad.playAnim('attack', true);
+							dad.specialAnim = true;
+						}
+						trace("GUN GO PEW PEW");
+						FlxG.sound.play(Paths.sound('shotgun_shoot'), 0.5);
+						shottedAnim = true;
+						new FlxTimer().start(0.155, function(tmr:FlxTimer)
+						{
+							if(shottedAnim)
+								shottedAnim = false;
+						});
+					}
 				}
 
 				if(daNote.mustPress && cpuControlled) {
@@ -3557,6 +3577,7 @@ class PlayState extends MusicBeatState
 						if (dad.curCharacter == 'soldier'){
 							dad.playAnim('attack', true);
 							dad.specialAnim = true;
+							FlxG.sound.play(Paths.sound('shotgun_shoot'), 0.5);
 						}
 				}
 				
