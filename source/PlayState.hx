@@ -64,7 +64,7 @@ class PlayState extends MusicBeatState
 	public static var ratingStuff:Array<Dynamic> = [
 		['D U M B A S S', 0.2], //From 0% to 19%
 		['DUMBASS', 0.4], //From 20% to 39%
-		['DumbAss', 0.5], //From 40% to 49%
+		['Dumbass', 0.5], //From 40% to 49%
 		['dumbass', 0.6], //From 50% to 59%
 		['Meh', 0.69], //From 60% to 68%
 		['Nice', 0.7], //69%

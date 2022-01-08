@@ -24,6 +24,11 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Benny Dev Team'],
+		['Zac',		'zac',		'Director, Artist, Animator',					'https://www.youtube.com/channel/UCtSP-OEzoxn-HgySlzqyzoQ',	0xFF3366FF],
+		['NonsenseHumor',		'corck',		'C o d e s',					'https://www.youtube.com/c/NonsenseHumorLOL',	0xFFA3E9F0],
+		['LazyGoobster',		'goob',		'D r a w s',					'https://www.youtube.com/channel/UCBD7vRTlPiVpp8WlGj7Qqrw',	0xFF990066],
+		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
