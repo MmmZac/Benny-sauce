@@ -2378,8 +2378,15 @@ class PlayState extends MusicBeatState
 							gf.playAnim(animToPlay + altAnim, true);
 							gf.holdTimer = 0;
 						} else {
-							dad.playAnim(animToPlay + altAnim, true);
-							dad.holdTimer = 0;
+							if (dad.curCharacter == 'soldier'){
+								if (!shottedAnim){
+									dad.playAnim(animToPlay + altAnim, true);
+									dad.holdTimer = 0;
+								}
+							}else{
+								dad.playAnim(animToPlay + altAnim, true);
+								dad.holdTimer = 0;
+							}
 						}
 					}
 
@@ -2409,25 +2416,23 @@ class PlayState extends MusicBeatState
 						notes.remove(daNote, true);
 						daNote.destroy();
 					}
-				} else if (dad.curCharacter == 'soldier' && daNote.noteType == 'Hurt Note' && daNote.mustPress && daNote.canBeHit && daNote.strumTime <= Conductor.songPosition){
-					if (!shottedAnim){
-						if(boyfriend.animation.getByName('dodge') != null){
-							boyfriend.playAnim('dodge', true);
-							boyfriend.specialAnim = true;
-						}
-						if(boyfriend.animation.getByName('attack') != null){
-							dad.playAnim('attack', true);
-							dad.specialAnim = true;
-						}
-						trace("GUN GO PEW PEW");
-						FlxG.sound.play(Paths.sound('shotgun_shoot'), 0.5);
-						shottedAnim = true;
-						new FlxTimer().start(0.155, function(tmr:FlxTimer)
-						{
-							if(shottedAnim)
-								shottedAnim = false;
-						});
+				} else if (!shottedAnim && dad.curCharacter == 'soldier' && daNote.noteType == 'Hurt Note' && daNote.mustPress && daNote.canBeHit && daNote.strumTime <= Conductor.songPosition){
+					if(boyfriend.animation.getByName('dodge') != null){
+						boyfriend.playAnim('dodge', true);
+						boyfriend.specialAnim = true;
 					}
+					if(boyfriend.animation.getByName('attack') != null){
+						dad.playAnim('attack', true);
+						dad.specialAnim = true;
+					}
+					trace("GUN GO PEW PEW");
+					FlxG.sound.play(Paths.sound('shotgun_shoot'), 0.5);
+					shottedAnim = true;
+					new FlxTimer().start(0.155, function(tmr:FlxTimer)
+					{
+						if(shottedAnim)
+							shottedAnim = false;
+					});
 				}
 
 				if(daNote.mustPress && cpuControlled) {
