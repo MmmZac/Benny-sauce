@@ -3624,7 +3624,13 @@ class PlayState extends MusicBeatState
 				if(note.noteType == 'GF Sing') {
 					gf.playAnim(animToPlay + daAlt, true);
 					gf.holdTimer = 0;
-				} else {
+				} 
+				else if (dad.curCharacter == 'soldier'){
+					if (!shottedAnim){
+						boyfriend.playAnim(animToPlay + daAlt, true);
+						boyfriend.holdTimer = 0;
+					}
+				}else{
 					boyfriend.playAnim(animToPlay + daAlt, true);
 					boyfriend.holdTimer = 0;
 				}
