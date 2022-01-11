@@ -1,63 +1,63 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-150,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "IdleConfident"
+			"fps": 24,
+			"name": "IdleConfident",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-59,
 				1
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "NoteLeft Confident"
+			"fps": 24,
+			"name": "NoteLeft Confident",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-165,
 				46
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "NoteUp confident"
+			"fps": 24,
+			"name": "NoteUp confident",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-87,
 				14
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "NoteRight confident"
+			"fps": 24,
+			"name": "NoteRight confident",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-147,
 				-31
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "NoteDown confident"
+			"fps": 24,
+			"name": "NoteDown confident",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "fucker/clark skyler eliseo calapiz",
+	"image": "fucker/zac you asshole",
 	"position": [
 		-110,
 		110
