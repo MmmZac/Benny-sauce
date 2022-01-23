@@ -53,9 +53,9 @@ class GameOverSubstate extends MusicBeatSubstate
 				switch (daStage)
 				{
 					case 'land':
-						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 5));
+						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 9));
 					case 'landFight':
-						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 5));
+						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 9));
 					
 
 				}
