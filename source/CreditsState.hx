@@ -25,7 +25,7 @@ class CreditsState extends MusicBeatState
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Subscribe to Kenz0id'],
-		['Kenz0id',		'',		'he animates the cutscenes\nBut Subscribe to Kenz0id',					'https://www.youtube.com/channel/UCTNIhk8e8FdBSIqFu_oyY1Q',	0xFF3366FF],
+		['Kenz0id',		'lipbiteicon',		'he animates the cutscenes\nBut Subscribe to Kenz0id',					'https://www.youtube.com/channel/UCTNIhk8e8FdBSIqFu_oyY1Q',	0xFF3366FF],
 		[''],
 		['Benny Dev Team'],
 		['Zac',		'zac',		'Director, Artist, Animator\nBenny Creator',					'https://www.youtube.com/channel/UCtSP-OEzoxn-HgySlzqyzoQ',	0xFF3366FF],
