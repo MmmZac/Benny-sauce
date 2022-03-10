@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				286,
 				-38
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "benny left"
+			"fps": 24,
+			"name": "benny left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-26,
 				90
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "benny up"
+			"fps": 24,
+			"name": "benny up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				90,
 				27
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "benny right"
+			"fps": 24,
+			"name": "benny right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "benny idle"
+			"fps": 24,
+			"name": "benny idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				92,
 				-130
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "benny down"
+			"fps": 24,
+			"name": "benny down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				190,
 				-2
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "eventProud",
-			"indices": [],
-			"name": "proud"
+			"fps": 24,
+			"name": "proud",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				14,
 				28
 			],
-			"anim": "eventFuckYou",
+			"loop": false,
 			"fps": 24,
-			"name": "benny fuck you",
-			"indices": []
+			"anim": "eventFuckYou",
+			"indices": [],
+			"name": "benny fuck you"
 		}
 	],
 	"no_antialiasing": false,
@@ -88,7 +88,7 @@
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		102,
+		182,
 		206
 	],
 	"camera_position": [
