@@ -202,6 +202,7 @@ class StoryMenuState extends MusicBeatState
 
 		if (!movedBack && !selectedWeek)
 		{
+			/*
 			if (controls.UI_UP_P)
 			{
 				changeWeek(-1);
@@ -213,6 +214,7 @@ class StoryMenuState extends MusicBeatState
 				changeWeek(1);
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
+			*/
 
 			if (controls.UI_RIGHT)
 				rightArrow.animation.play('press')
@@ -308,10 +310,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
+		if (curDifficulty < 1)
 			curDifficulty = CoolUtil.difficultyStuff.length-1;
 		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;
+			curDifficulty = 1;
 
 		sprDifficultyGroup.forEach(function(spr:FlxSprite) {
 			spr.visible = false;
