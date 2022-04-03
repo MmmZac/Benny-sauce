@@ -238,6 +238,11 @@ class PlayState extends MusicBeatState
 	public var inCutscene:Bool = false;
 	var songLength:Float = 0;
 
+	//directional cam
+	var camOnDad:Bool = false;
+	var camewamovin:Bool;
+	var nodirectcamIdle:Bool = false;
+
 	#if desktop
 	// Discord RPC variables
 	var storyDifficultyText:String = "";
@@ -1956,6 +1961,16 @@ class PlayState extends MusicBeatState
 
 		callOnLuas('onUpdate', [elapsed]);
 
+		if(!nodirectcamIdle){
+			if(camOnDad){
+				if (!dad.animation.curAnim.name.startsWith('sing'))
+					directionalCamStuff('0', '0');
+			}else if(!camOnDad){
+				if (!boyfriend.animation.curAnim.name.startsWith('sing'))
+					directionalCamStuff('0', '0');
+			}
+		}
+
 		switch (curStage)
 		{
 			case 'schoolEvil':
@@ -2399,6 +2414,20 @@ class PlayState extends MusicBeatState
 								dad.holdTimer = 0;
 							}
 						}
+						if (camOnDad)
+							{
+								switch (Math.abs(daNote.noteData))
+								{
+									case 0:
+										directionalCamStuff('-15', '0');
+									case 1:
+										directionalCamStuff('0', '15');
+									case 2:
+										directionalCamStuff('0', '-15');
+									case 3:
+										directionalCamStuff('15', '0');
+								}
+							}
 					}
 
 					if (dad.curCharacter == 'soldier')
@@ -2535,6 +2564,30 @@ class PlayState extends MusicBeatState
 		setOnLuas('botPlay', PlayState.cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
 		#end
+	}
+
+	public function directionalCamStuff(value1:String, value2:String){
+		var val1:Float = Std.parseFloat(value1);
+		var val2:Float = Std.parseFloat(value2);
+		if(Math.isNaN(val1)) val1 = 0;
+		if(Math.isNaN(val2)) val2 = 0;
+
+		if(!Math.isNaN(Std.parseFloat(value1)) || !Math.isNaN(Std.parseFloat(value2))) {
+			if (camOnDad)
+			{
+				camewamovin = true;
+				camFollow.set(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
+				camFollow.x += dad.cameraPosition[0] + val1;
+				camFollow.y += dad.cameraPosition[1] + val2;
+			}
+			if (!camOnDad)
+			{
+				camewamovin = false;
+				camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+				camFollow.x -= boyfriend.cameraPosition[0] + val1;
+				camFollow.y += boyfriend.cameraPosition[1] + val2;
+			}
+		}
 	}
 
 	var isDead:Bool = false;
@@ -2941,11 +2994,13 @@ class PlayState extends MusicBeatState
 	var cameraTwn:FlxTween;
 	public function moveCamera(isDad:Bool) {
 		if(isDad) {
+			camOnDad = true;
 			camFollow.set(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
 			camFollow.x += dad.cameraPosition[0];
 			camFollow.y += dad.cameraPosition[1];
 			tweenCamIn();
 		} else {
+			camOnDad = false;
 			camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
 
 			switch (curStage)
@@ -3630,6 +3685,21 @@ class PlayState extends MusicBeatState
 						animToPlay = 'singUP';
 					case 3:
 						animToPlay = 'singRIGHT';
+				}
+
+				if (!camOnDad)
+				{
+					switch (Std.int(Math.abs(note.noteData)))
+					{
+						case 0:
+							directionalCamStuff('15', '0');
+						case 1:
+							directionalCamStuff('0', '15');
+						case 2:
+							directionalCamStuff('0', '-15');
+						case 3:
+							directionalCamStuff('-15', '0');
+					}
 				}
 
 				if(note.noteType == 'GF Sing') {
