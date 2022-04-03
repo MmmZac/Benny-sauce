@@ -1136,6 +1136,8 @@ class PlayState extends MusicBeatState
 					startVideo('Cutscene1');
 				case 'repeater':
 					startVideo('Cutscene2');
+				case 'crossfire':
+					startVideo('Cutscene3');
 
 				default:
 					startCountdown();

@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "danceRight",
+			"loop": false,
 			"fps": 24,
-			"name": "benny right dance",
-			"indices": []
+			"anim": "danceRight",
+			"indices": [],
+			"name": "benny right dance"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				33,
 				0
 			],
-			"anim": "danceLeft",
+			"loop": false,
 			"fps": 24,
-			"name": "benny left dance",
-			"indices": []
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "benny left dance"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-49,
 				-5
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "benny confident left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "benny confident left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				87,
 				35
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "benny confident up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "benny confident up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-29,
 				14
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "benny confident right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "benny confident right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-78,
 				-82
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "benny confident down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "benny confident down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				20
 			],
-			"anim": "singUP-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "benny laugh",
-			"indices": []
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "benny laugh"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-60,
 				20
 			],
-			"anim": "",
+			"loop": false,
 			"fps": 24,
-			"name": "",
-			"indices": []
+			"anim": "",
+			"indices": [],
+			"name": ""
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-58,
 				21
 			],
-			"anim": "singRIGHT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "Oh",
-			"indices": []
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Oh"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-46,
 				-3
 			],
-			"anim": "singLEFT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "Yeah",
-			"indices": []
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Yeah"
 		}
 	],
 	"no_antialiasing": false,
@@ -121,7 +121,7 @@
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		102,
+		182,
 		206
 	],
 	"camera_position": [
