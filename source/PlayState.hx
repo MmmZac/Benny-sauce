@@ -491,6 +491,11 @@ class PlayState extends MusicBeatState
 						rocky.animation.addByPrefix('idle', 'rockyhostage', 24, true);
 						rocky.antialiasing = true;
 						add(rocky);
+						
+						var bg:FlxSprite = new FlxSprite(34, 754).loadGraphic(Paths.image('bennyxd/peter griffin'));
+						bg.antialiasing = true;
+						bg.active = false;
+						add(bg);
 					}
 
 			case 'spooky': //Week 2
