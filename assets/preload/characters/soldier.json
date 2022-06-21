@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-3
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "soldier left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				44,
 				-6
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "soldier right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				75,
 				7
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "soldier up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "soldier idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				70,
 				-106
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "soldier down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				124,
 				10
 			],
-			"anim": "eventProud",
+			"loop": false,
 			"fps": 24,
-			"name": "soldier proud",
-			"indices": []
+			"anim": "eventProud",
+			"indices": [],
+			"name": "soldier proud"
 		},
 		{
+			"loop": false,
 			"offsets": [
-				30,
+				29,
 				-10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "attack",
-			"loop": false,
-			"name": "shoot"
+			"fps": 24,
+			"name": "shoot",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -87,9 +87,9 @@
 	"healthicon": "soldier",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		115,
-		0
+		102,
+		153,
+		102
 	],
 	"camera_position": [
 		80,
