@@ -181,7 +181,7 @@ class TitleState extends MusicBeatState
         	// bg.setGraphicSize(Std.int(bg.width * 0.6));
         	add(bg);
 
-		logoBl = new FlxSprite(-65, -65);
+		logoBl = new FlxSprite(-5, -20);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
