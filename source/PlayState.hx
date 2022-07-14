@@ -1149,6 +1149,8 @@ class PlayState extends MusicBeatState
 					startVideo('Cutscene3');
 				case 'bullets':
 					startVideo('Cutscene4');
+				case 'sharp-struggle':
+					startVideo('Cutscene5');
 
 				default:
 					startCountdown();
