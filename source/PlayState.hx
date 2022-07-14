@@ -211,6 +211,7 @@ class PlayState extends MusicBeatState
 	var rockyshooting:FlxSprite;
 	var soldiers:FlxSprite;
 	var soldiers2:FlxSprite;
+	var deadBenny:FlxSprite;
 	var soldiersBoppin:FlxSprite;
 
 	var bgGirls:BackgroundGirls;
@@ -492,10 +493,9 @@ class PlayState extends MusicBeatState
 						rocky.antialiasing = true;
 						add(rocky);
 						
-						var bg:FlxSprite = new FlxSprite(34, 754).loadGraphic(Paths.image('bennyxd/peter griffin'));
-						bg.antialiasing = true;
-						bg.active = false;
-						add(bg);
+						deadBenny = new FlxSprite(34, 754).loadGraphic(Paths.image('bennyxd/peter griffin'));
+						deadBenny.antialiasing = true;
+						deadBenny.active = false;
 					}
 
 			case 'spooky': //Week 2
@@ -756,6 +756,10 @@ class PlayState extends MusicBeatState
 			add(limo);
 
 		add(dadGroup);
+
+		if(curStage == 'landHostage')
+			add(deadBenny);
+		
 		add(boyfriendGroup);
 		
 		if(curStage == 'spooky') {
