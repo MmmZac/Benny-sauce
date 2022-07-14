@@ -493,7 +493,7 @@ class PlayState extends MusicBeatState
 						rocky.antialiasing = true;
 						add(rocky);
 						
-						deadBenny = new FlxSprite(34, 754).loadGraphic(Paths.image('bennyxd/peter griffin'));
+						deadBenny = new FlxSprite(34, 794).loadGraphic(Paths.image('bennyxd/peter griffin'));
 						deadBenny.antialiasing = true;
 						deadBenny.active = false;
 					}
