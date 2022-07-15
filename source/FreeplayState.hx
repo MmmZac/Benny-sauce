@@ -26,7 +26,7 @@ class FreeplayState extends MusicBeatState
 
 	var selector:FlxText;
 	private static var curSelected:Int = 0;
-	private static var curDifficulty:Int = 1;
+	private static var curDifficulty:Int = 2;
 
 	var scoreBG:FlxSprite;
 	var scoreText:FlxText;
@@ -127,6 +127,7 @@ class FreeplayState extends MusicBeatState
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
 		add(diffText);
+		//diffText.visible = false;
 
 		add(scoreText);
 
@@ -233,10 +234,10 @@ class FreeplayState extends MusicBeatState
 			changeSelection(shiftMult);
 		}
 
-		if (controls.UI_LEFT_P)
+		/*if (controls.UI_LEFT_P)
 			changeDiff(-1);
 		if (controls.UI_RIGHT_P)
-			changeDiff(1);
+			changeDiff(1);*/
 
 		if (controls.BACK)
 		{
@@ -315,7 +316,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeDiff(change:Int = 0)
 	{
-		curDifficulty += change;
+		//curDifficulty += change;
 
 		if (curDifficulty < 1)
 			curDifficulty = CoolUtil.difficultyStuff.length-1;
@@ -328,7 +329,7 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		PlayState.storyDifficulty = curDifficulty;
-		diffText.text = '< ' + CoolUtil.difficultyString() + ' >';
+		diffText.text = '';
 		positionHighscore();
 	}
 
