@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Rockysprites.png">
+<TextureAtlas imagePath="rockysprites.png">
 	<!-- Created with Adobe Animate version 19.2.0.405 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="rocky down0000" x="804" y="1693" width="823" height="539" frameX="-2" frameY="-46" frameWidth="825" frameHeight="587"/>
