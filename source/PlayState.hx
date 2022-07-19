@@ -501,7 +501,7 @@ class PlayState extends MusicBeatState
 			case 'landnorocky':
 					{
 						defaultCamZoom = 0.75;
-						curStage = 'land';
+						curStage = 'landnorocky';
 						var bg:FlxSprite = new FlxSprite(-800, -400).loadGraphic(Paths.image('bennyxd/sky'));
 						bg.antialiasing = true;
 						bg.scrollFactor.set(0.7, 0.7);
