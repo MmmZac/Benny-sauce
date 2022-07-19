@@ -497,6 +497,28 @@ class PlayState extends MusicBeatState
 						deadBenny.antialiasing = true;
 						deadBenny.active = false;
 					}
+					
+			case 'landnorocky':
+					{
+						defaultCamZoom = 0.75;
+						curStage = 'landnorocky';
+						var bg:FlxSprite = new FlxSprite(-800, -400).loadGraphic(Paths.image('bennyxd/sky'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.7, 0.7);
+						bg.active = false;
+						add(bg);
+
+						var bg:FlxSprite = new FlxSprite(-1216, -116).loadGraphic(Paths.image('bennyxd/mountain'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.8, 0.8);
+						bg.active = false;
+						add(bg);
+
+						var bg:FlxSprite = new FlxSprite(-600, 400).loadGraphic(Paths.image('bennyxd/ground'));
+						bg.antialiasing = true;
+						bg.active = false;
+						add(bg);
+					}
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
@@ -1151,6 +1173,7 @@ class PlayState extends MusicBeatState
 					startVideo('Cutscene4');
 				case 'sharp-struggle':
 					startVideo('Cutscene5');
+				
 
 				default:
 					startCountdown();
