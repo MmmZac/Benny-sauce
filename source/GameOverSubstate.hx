@@ -55,7 +55,9 @@ class GameOverSubstate extends MusicBeatSubstate
 					case 'land':
 						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 15),2);
 					case 'landFight':
-						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 16),2);
+						FlxG.sound.play(Paths.soundRandom('BennyDeath_', 1, 16), 2);
+					case 'landnorocky':
+						FlxG.sound.play(Paths.soundRandom('RockyInsult');
 					
 
 				}
