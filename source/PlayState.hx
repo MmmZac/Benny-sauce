@@ -3161,6 +3161,9 @@ class PlayState extends MusicBeatState
 
 			if (isStoryMode)
 			{
+				if (Paths.formatToSongPath(SONG.song) == ''){
+					startVideo();
+				}
 				campaignScore += songScore;
 				campaignMisses += songMisses;
 
