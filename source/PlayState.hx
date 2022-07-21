@@ -1284,9 +1284,6 @@ class PlayState extends MusicBeatState
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
 				videoPlaying = false;
-				if (Paths.formatToSongPath(SONG.song) == 'sharp-struggle'){
-					FlxG.sound.music.onComplete();
-				}
 				if(endingSong) {
 					endSong();
 				} else {
@@ -3103,8 +3100,8 @@ class PlayState extends MusicBeatState
 	public function endSong():Void
 	{
 		if (Paths.formatToSongPath(SONG.song) == 'sharp-struggle' && !dontplayagainLol && isStoryMode){
-			startVideo('Cutscene6');
 			endingSong = true;
+			startVideo('Cutscene6');
 			dontplayagainLol = true;
 		}
 		else if (!videoPlaying){
