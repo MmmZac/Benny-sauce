@@ -33,7 +33,7 @@ class CreditsState extends MusicBeatState
 		['NonsenseHumor',		'corck',		'C o d e s',					'https://www.youtube.com/c/NonsenseHumorLOL',	0xFFA3E9F0],
 		['Skieonsta',		'sky baby',		'B l o o d s',					'https://www.youtube.com/channel/UCdwn89VPklR7hDKpD1MWzXA',	0xFF629975],
 		['Lanzy',		'lanzy',		'C h a r t s',					'https://www.youtube.com/channel/UCL5zNunWt5LX_yxjpqacCSg',	0xFF757575],
-		['Greenz',		'',		'C o d e s',					'https://www.youtube.com/channel/UCQNnIhEmzKGDpdhkICS_G0A',	0xFF3366FF],
+		['Greenz',		'greenz',		'C o d e s',					'https://www.youtube.com/channel/UCQNnIhEmzKGDpdhkICS_G0A',	0xFF0C5D13],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
