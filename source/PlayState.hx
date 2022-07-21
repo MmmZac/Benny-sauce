@@ -1284,6 +1284,9 @@ class PlayState extends MusicBeatState
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
 				videoPlaying = false;
+				if (Paths.formatToSongPath(SONG.song) == 'sharp-struggle'){
+					FlxG.sound.music.onComplete();
+				}
 				if(endingSong) {
 					endSong();
 				} else {
