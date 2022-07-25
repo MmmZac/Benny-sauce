@@ -214,6 +214,7 @@ class PlayState extends MusicBeatState
 	var deadBenny:FlxSprite;
 	var soldiersBoppin:FlxSprite;
 	public static var number:Int = 0;
+	public static var songdoneLOL:Bool = false;
 
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
@@ -1167,11 +1168,14 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 					
 				case 'guilty' | 'repeater' | 'crossfire' | 'bullets' | 'sharp-struggle':
-					if (daSong == 'guilty')
+					if (daSong == 'guilty'){
+						songdoneLOL = false;
 						number = 1;
-					else
+					}else
 						number += 1;
 					startVideo('Cutscene' + number);
+					if (daSong == 'sharp-struggle')
+						songdoneLOL = true;
 				default:
 					startCountdown();
 			}
@@ -1284,7 +1288,9 @@ class PlayState extends MusicBeatState
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
 				videoPlaying = false;
-				if(endingSong) {
+				if (name == 'Cutscene6')
+					MusicBeatState.switchState(new StoryMenuState());
+				else if(endingSong) {
 					endSong();
 				} else {
 					startCountdown();
@@ -3099,12 +3105,11 @@ class PlayState extends MusicBeatState
 	var transitioning = false;
 	public function endSong():Void
 	{
-		if (Paths.formatToSongPath(SONG.song) == 'sharp-struggle' && !dontplayagainLol && isStoryMode){
-			endingSong = true;
+		if (Paths.formatToSongPath(SONG.song) == 'sharp-struggle' && songdoneLOL && !dontplayagainLol && isStoryMode){
 			startVideo('Cutscene6');
 			dontplayagainLol = true;
 		}
-		else if (!videoPlaying){
+		else if (!songdoneLOL){
 			//Should kill you if you tried to cheat
 			if(!startingSong) {
 				notes.forEach(function(daNote:Note) {
